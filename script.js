@@ -1,7 +1,3 @@
-
-let firstlink=document.getElementById("firstlink")
-firstlink.addEventListener("click", () => {
-
- document.body.classList.toggle("fistljs"); 
- 
-})
+function toggleMenu() {
+    document.querySelector('.navbar-links').classList.toggle('show');
+}
